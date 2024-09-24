@@ -1,4 +1,5 @@
 ﻿using Grpc.Core;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GrpcServer.Services
 {
@@ -35,5 +36,46 @@ namespace GrpcServer.Services
             return Task.FromResult(output);
         }
 
+        public override async Task GetNewCustomers(
+            NewCustomerRequest request,
+            IServerStreamWriter<CustomerModel> responseStream,
+            ServerCallContext context)
+        {
+            List<CustomerModel> customers = new List<CustomerModel>
+            {
+
+                new CustomerModel
+                {
+                    FirstName = "Jamie",
+                    LastName = "Smith",
+                    Email = "dggss",
+                    Age = 41,
+                    IsAlive = true
+                },
+                new CustomerModel
+                {
+                    FirstName = "Jane",
+                    LastName = "Doe",
+                    Email = "shdyj",
+                    Age = 41,
+                    IsAlive = true
+
+                },
+                new CustomerModel
+                {
+                    FirstName = "Grey",
+                    LastName = "Thomas",
+                    Email = "kjlhjt",
+                    Age = 41,
+                    IsAlive = true
+                },
+            };
+
+            foreach(var customer in customers)
+            {
+                await Task.Delay(1000);
+                await responseStream.WriteAsync(customer);
+            }
+        }
     }
 }

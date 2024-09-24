@@ -1,8 +1,7 @@
 ﻿
+using Grpc.Core;
 using Grpc.Net.Client;
 using GrpcServer;
-
-
 
 //var input = new HelloRequest { Name = "Tim" };
 
@@ -19,6 +18,15 @@ var clientRequested = new CustomerLookupModel { UserId = 2};
 
 var customer = await customerClient.GetCustomerInfoAsync(clientRequested);
 
-Console.WriteLine($"{customer.FirstName}{ customer.LastName}");
+Console.WriteLine($"{customer.FirstName} { customer.LastName}");
+
+using (var call = customerClient.GetNewCustomers(new NewCustomerRequest()))
+{
+    while( await call.ResponseStream.MoveNext())
+    {
+        var curr = call.ResponseStream.Current;
+        Console.WriteLine($"{curr.FirstName} {curr.LastName} : {curr.Email}");
+    }
+}
 
 Console.ReadLine();
