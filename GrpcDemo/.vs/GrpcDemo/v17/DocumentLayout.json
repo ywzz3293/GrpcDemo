@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79F81135-5310-4D1E-80F4-C155A11F5D00}|GrpcServer\\GrpcServer.csproj|c:\\users\\shenw\\documents\\projects\\grpcdemo\\grpcdemo\\grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F81135-5310-4D1E-80F4-C155A11F5D00}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F81135-5310-4D1E-80F4-C155A11F5D00}|GrpcServer\\GrpcServer.csproj|c:\\users\\shenw\\documents\\projects\\grpcdemo\\grpcdemo\\grpcserver\\protos\\customers.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{79F81135-5310-4D1E-80F4-C155A11F5D00}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\customers.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDBDA19-826C-423F-A4DC-68C8945FED0A}|GrpcClient\\GrpcClient.csproj|c:\\users\\shenw\\documents\\projects\\grpcdemo\\grpcdemo\\grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDBDA19-826C-423F-A4DC-68C8945FED0A}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F81135-5310-4D1E-80F4-C155A11F5D00}|GrpcServer\\GrpcServer.csproj|c:\\users\\shenw\\documents\\projects\\grpcdemo\\grpcdemo\\grpcserver\\services\\customersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F81135-5310-4D1E-80F4-C155A11F5D00}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\services\\customersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcServer\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Program.cs",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcServer\\Program.cs",
+              "RelativeToolTip": "GrpcServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:05:17.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcClient\\Program.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\Program.cs",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcClient\\Program.cs",
+              "RelativeToolTip": "GrpcClient\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:07:54.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersService.cs",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcServer\\Services\\CustomersService.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Services\\CustomersService.cs",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcServer\\Services\\CustomersService.cs",
+              "RelativeToolTip": "GrpcServer\\Services\\CustomersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:59:39.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "customers.proto",
+              "DocumentMoniker": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcServer\\Protos\\customers.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\customers.proto",
+              "ToolTip": "C:\\Users\\shenw\\Documents\\Projects\\GrpcDemo\\GrpcDemo\\GrpcServer\\Protos\\customers.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\customers.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-09-24T15:39:18.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
